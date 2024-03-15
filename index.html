@@ -1,0 +1,42 @@
+<!-- you can use tailwind play it is just like code pen -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restaurant Landing Page - Tailwind Css</title>
+</head>
+<body class="bg-gray-200">
+    <nav class="bg-yellow-500 text-black-300 flex justify-between px-3 py-3  font-semibold">
+        <img src="https://img.freepik.com/premium-vector/restaurant-logo-design-template_79169-56.jpg?w=2000" alt="logo" class="w-20 rounded-full">
+        <ul class="flex list-none px-4 py-2 space-x-11 justify-center items-center text-lg ">
+            <li class=" cursor-pointer hover:text-yellow-50">Home</li>
+            <li class=" cursor-pointer hover:text-yellow-50">About us </li>
+            <li class=" cursor-pointer hover:text-yellow-50">Menu</li>
+            <li class=" cursor-pointer hover:text-yellow-50 pr-10">Contact us</li>
+        </ul>
+    </nav>
+
+    <main class=" flex justify-around overflow-y-hidden h-full m-20">
+        <div class="main  h-96 py-78 pl-20 flex justify-center items-center flex-col">
+         
+            <div class="text-4xl uppercase mb-5">
+                The best food in the market right now 
+            </div>
+            <p class=" mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, perferendis deserunt atque maiores cum tempora quos quidem obcaecati accusamus autem.</p>
+                <div class="buttons text-left mb-25">
+                    <button class="bg-yellow-500 mx-10 rounded-lg px-2 py-1 hover:text-yellow-500 hover:bg-white">Order Now</button>
+                    <button class="bg-yellow-500 rounded-lg px-2 py-1 hover:text-yellow-500 hover:bg-white">Contact Us</button>
+                </div>
+        
+        </div>
+
+        <div class="flex items-center justify-center overflow-hidden">
+            <img src="https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg" alt="burger" class="w-1/2">
+        </div>
+    </main>
+</body>
+</html>
